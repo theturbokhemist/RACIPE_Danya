@@ -1,0 +1,15 @@
+Klf2’ = Klf4 OR Esrrb
+Klf4’ = Stat3 AND Klf2
+Tcf3’ = (Sox2 AND Klf2 AND Oct4) AND NOT(MEKERK) AND NOT(CH)
+Tfcp2l1’ = (Stat3 OR Klf2) AND NOT(Tcf3)
+Oct4’ = Klf4 OR Tcf3 or Tfcp2l1
+Tbx3’ = (Klf4 OR Sall4) AND NOT(Tcf3)
+Esrrb’ = Nanog AND NOT(Tcf3)
+Sall4’ = (Sox2 AND Oct4) AND NOT(Tcf3)
+Nanog’ = (Sox2 OR Sall4 OR Tbx3 AND NOT(MEKERK)) OR (Sall4 AND Sox2 AND Tbx3)
+Sox2’ = (Tbx3 OR Sall4 OR Tcf3)
+Stat3’ = LIF
+Gbx2’ = Stat3
+MEKERK’ = NOT(PD)
+PD’ = PD
+CH’ = CH
